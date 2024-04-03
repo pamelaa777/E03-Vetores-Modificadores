@@ -14,7 +14,7 @@ public class Operacao {
     /* Data de realização da operação */
     public Date data;
 
-    /* Tipo da operação */
+    /* Tipo da operação d-s*/
     public char tipo;
 
     /* Valor da operação */
