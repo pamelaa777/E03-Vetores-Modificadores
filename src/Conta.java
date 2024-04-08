@@ -1,12 +1,12 @@
 public class Conta {
 
-    Cliente dono;
-    double saldo;
-    int numero;
-    String agencia;
-    double limite;
-    Operacao[] operacoes;
-    int contador;
+    private Cliente dono;
+    private double saldo;
+    private int numero;
+    private String agencia;
+    private double limite;
+    private Operacao[] operacoes;
+    private int contador;
 
     public Conta(Cliente dono, String agencia, int numero, double saldo, double limite) {
         this.dono = dono;
