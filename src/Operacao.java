@@ -37,5 +37,19 @@ public class Operacao {
         this.valor = valor;
         data = new Date();
     }
+    public char getTipo(){
+        return this.tipo;
+    }
+    public Date getData(){
+        return this.data;
+    }
+    public double getValor(){
+        return this.valor;
+    }
+
+    public void setTipo(char tipo) {
+        this.tipo = tipo;
+    }
+
 
 }
