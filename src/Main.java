@@ -5,7 +5,6 @@ public class Main {
         Conta conta = new Conta(cliente, "222-2", 1234, 2000, 20000);
         Conta conta2 = new Conta(cliente, "222-2", 1234, 2000, 20000);
 
-
         conta.depositar(2000);
         conta.sacar(100);
         conta.depositar(2000);
